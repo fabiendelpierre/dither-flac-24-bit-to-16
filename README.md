@@ -28,10 +28,12 @@ Once you run this, the script iterates over all the FLAC files in your source di
 $ pwd
 /home/bob
 $ ls -l
-drwx------ 2 bob users 9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
+drwx------ 2 bob users    9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
+-rwx------ 1 bob users 2265 Oct  9 19:15 ditherflac24to16.rb
 ./ditherflac24to16.rb "Artist - 2018 - Album Title [FLAC 24-bit]" "Artist - 2018 - Album Title [FLAC]" 44100
 ...
 $ ls -l
-drwx------ 2 bob users 9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
-drwx------ 2 bob users 9 Nov 27 15:25 'Artist - 2018 - Album Title [FLAC]'
+drwx------ 2 bob users    9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
+drwx------ 2 bob users    9 Nov 27 15:25 'Artist - 2018 - Album Title [FLAC]'
+-rwx------ 1 bob users 2265 Oct  9 19:15 ditherflac24to16.rb
 ```
