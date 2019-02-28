@@ -30,7 +30,9 @@ $ pwd
 $ ls -l
 drwx------ 2 bob users    9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
 -rwx------ 1 bob users 2265 Oct  9 19:15 ditherflac24to16.rb
-./ditherflac24to16.rb "Artist - 2018 - Album Title [FLAC 24-bit]" "Artist - 2018 - Album Title [FLAC]" 44100
+$ ./ditherflac24to16.rb "Artist - 2018 - Album Title [FLAC 24-bit]" "Artist - 2018 - Album Title [FLAC]" 44100
+...
+<Bunch of output from SoX>
 ...
 $ ls -l
 drwx------ 2 bob users    9 Nov 26 21:55 'Artist - 2018 - Album Title [FLAC 24-bit]'
